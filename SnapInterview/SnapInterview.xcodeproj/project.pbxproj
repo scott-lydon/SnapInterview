@@ -16,6 +16,9 @@
 		7536E2B92470206B0002BB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7536E2B72470206B0002BB65 /* LaunchScreen.storyboard */; };
 		7536E2C42470206B0002BB65 /* SnapInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536E2C32470206B0002BB65 /* SnapInterviewTests.swift */; };
 		7536E2CF2470206B0002BB65 /* SnapInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536E2CE2470206B0002BB65 /* SnapInterviewUITests.swift */; };
+		755E143524946ECF00AD3F5B /* LazyInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E143424946ECF00AD3F5B /* LazyInitialization.swift */; };
+		755E143724946EF500AD3F5B /* MessagingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E143624946EF500AD3F5B /* MessagingApp.swift */; };
+		755E143924946F0F00AD3F5B /* AsyncFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E143824946F0F00AD3F5B /* AsyncFunctionality.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		7536E2CA2470206B0002BB65 /* SnapInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536E2CE2470206B0002BB65 /* SnapInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapInterviewUITests.swift; sourceTree = "<group>"; };
 		7536E2D02470206B0002BB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755E143424946ECF00AD3F5B /* LazyInitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyInitialization.swift; sourceTree = "<group>"; };
+		755E143624946EF500AD3F5B /* MessagingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingApp.swift; sourceTree = "<group>"; };
+		755E143824946F0F00AD3F5B /* AsyncFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncFunctionality.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				7536E2A9247020680002BB65 /* AppDelegate.swift */,
 				7536E2AB247020680002BB65 /* SceneDelegate.swift */,
 				7536E2AD247020680002BB65 /* ViewController.swift */,
+				755E143424946ECF00AD3F5B /* LazyInitialization.swift */,
+				755E143624946EF500AD3F5B /* MessagingApp.swift */,
+				755E143824946F0F00AD3F5B /* AsyncFunctionality.swift */,
 				7536E2AF247020680002BB65 /* Main.storyboard */,
 				7536E2B52470206B0002BB65 /* Assets.xcassets */,
 				7536E2B72470206B0002BB65 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755E143724946EF500AD3F5B /* MessagingApp.swift in Sources */,
+				755E143924946F0F00AD3F5B /* AsyncFunctionality.swift in Sources */,
 				7536E2B4247020680002BB65 /* SnapInterview.xcdatamodeld in Sources */,
 				7536E2AE247020680002BB65 /* ViewController.swift in Sources */,
+				755E143524946ECF00AD3F5B /* LazyInitialization.swift in Sources */,
 				7536E2AA247020680002BB65 /* AppDelegate.swift in Sources */,
 				7536E2AC247020680002BB65 /* SceneDelegate.swift in Sources */,
 			);
